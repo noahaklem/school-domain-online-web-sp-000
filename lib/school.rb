@@ -21,6 +21,8 @@ class School
   end
   
   def sort
+    roster.map do |key, value|
+      value.sort!
   
   
 end
