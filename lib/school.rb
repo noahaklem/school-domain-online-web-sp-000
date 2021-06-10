@@ -23,6 +23,6 @@ class School
   def sort
     @roster.each do |key, value|
       @roster[key] = value.sort!
-    
+    end
   end
 end
