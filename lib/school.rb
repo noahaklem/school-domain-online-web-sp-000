@@ -23,6 +23,6 @@ class School
   def sort
     roster.map do |key, value|
       value.sort!
-  
-  
+    end
+  end
 end
